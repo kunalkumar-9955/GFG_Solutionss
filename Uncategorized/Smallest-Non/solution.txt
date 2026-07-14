@@ -1,0 +1,6 @@
+class Solution {
+    public int find(int[] arr) {
+        // code here
+        
+    }
+}
