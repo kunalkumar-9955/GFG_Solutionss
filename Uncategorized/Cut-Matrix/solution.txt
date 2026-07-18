@@ -1,0 +1,6 @@
+class Solution {
+    public int findWays(int[][] matrix, int k) {
+        // code here
+        
+    }
+}
