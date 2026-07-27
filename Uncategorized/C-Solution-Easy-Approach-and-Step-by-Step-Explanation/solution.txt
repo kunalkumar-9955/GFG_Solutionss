@@ -1,5 +1,16 @@
+/* Structure of Binary Tree Node
+class Node {
+    int data;
+    Node left, right;
+
+    Node(int val) {
+        data = val;
+        left = right = null;
+    }
+} */
+
 class Solution {
-    public int maximumSum(int[][] mat, int k) {
+    public Node constructBinaryTree(int[] pre, int[] preMirror) {
         // code here
         
     }
