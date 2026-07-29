@@ -4,15 +4,20 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | July 27, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/construct-a-full-binary-tree--170648/1) |
+| **Solved On** | July 29, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/split-array-into-minimum-subsets/1) |
 
 ## Problem Summary
 
-Given two arrays pre[] and preMirror[] of size n containing unique elements, where pre[] represents the preorder traversal of a full binary tree and preMirror[] represents the preorder traversal of its mirror tree, construct the original full binary tree using these traversals.
-Note: A general binary tree cannot be uniquely constructed using these two traversals. However, a full binary tree can be constructed uniquely from the given traversals without any ambiguity.
+Given an array arr[] of distinct positive numbers. Split the array into the minimum number of subsets (or subsequences) such that each subset contains consecutive numbers.
 Examples:
-Input: pre[] = […
+Input: arr[] = [100, 56, 5, 6, 102, 58, 101, 57, 7, 103, 59]
+Output: 3
+Explanation: [5, 6, 7], [56, 57, 58, 59], [100, 101, 102, 103] are 3 subsequences in which numbers are consecutive.
+Input: arr[] = [10, 100, 105]
+Output: 3
+Explanation: [10], [100] and [105] are 3 subset in which numbers are consecutive.
+Constr…
 
 ## Solution
 
