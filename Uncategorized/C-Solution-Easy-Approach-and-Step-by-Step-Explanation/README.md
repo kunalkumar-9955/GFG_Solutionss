@@ -4,20 +4,15 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | July 29, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/split-array-into-minimum-subsets/1) |
+| **Solved On** | July 30, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/maximum-subset-xor/1) |
 
 ## Problem Summary
 
-Given an array arr[] of distinct positive numbers. Split the array into the minimum number of subsets (or subsequences) such that each subset contains consecutive numbers.
+Given an array arr[], choose any subset of elements (possibly all elements) such that the XOR of the chosen elements is maximized.
 Examples:
-Input: arr[] = [100, 56, 5, 6, 102, 58, 101, 57, 7, 103, 59]
-Output: 3
-Explanation: [5, 6, 7], [56, 57, 58, 59], [100, 101, 102, 103] are 3 subsequences in which numbers are consecutive.
-Input: arr[] = [10, 100, 105]
-Output: 3
-Explanation: [10], [100] and [105] are 3 subset in which numbers are consecutive.
-Constr…
+Input : arr[] = [2, 4, 5]Output: 7Explanation: The subset {2, 5} has the maximum XOR value.
+Input : arr[] = [9, 8, 5]Output: 13Explanation: The subset {8, 5} has the maximum XOR value.
 
 ## Solution
 
