@@ -1,5 +1,5 @@
 class Solution {
-    public int maxSubsetXOR(int[] arr) {
+    public int countSubsets(int[] arr) {
         // code here
         
     }
