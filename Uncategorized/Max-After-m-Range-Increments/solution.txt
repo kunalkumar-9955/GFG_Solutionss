@@ -1,0 +1,6 @@
+class Solution {
+    public int findMax(int n, int[] a, int[] b, int[] k) {
+        // code here
+        
+    }
+}
