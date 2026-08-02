@@ -1,5 +1,5 @@
 class Solution {
-    public int countSubsets(int[] arr) {
+    public int count(int n, int m) {
         // code here
         
     }
