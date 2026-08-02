@@ -4,23 +4,20 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | July 31, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/game-of-subsets/1) |
+| **Solved On** | August 2, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/count-in-array2138/1) |
 
 ## Problem Summary
 
-Given an integer array arr[], count the number of different subsets whose product can be represented as a product of one or more distinct prime numbers.  Two subsets are considered different if the set of chosen array indexes are not same.
-Return the count modulo 109 + 7.
+Given two positive integer n and m. Find the number of arrays of size n that can be formed such that:
+
+Each element is in the range [1, m].
+All adjacent are such that one of them divide the another i.e element Ai divides Ai + 1 or Ai+1 divides Ai.
+
 Examples:
-Input: arr[] = [1, 2, 3, 4]
-Output: 6
-Explanation: The subsets are:
-[2], product = 2 = 2
-[3], product = 3 = 3
-[1, 2], product = 2 = 2
-[1, 3], product = 3 = 3
-[2, 3], product = 6 = 2 × 3
-[1, 2, 3], product = 6 = 2 ×…
+Input: n = 3, m = 3
+Output : 17
+Explanation: The possible arrays are [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 2, 1], [1, 2, 2], [1, 3, 1], [1, 3, 3], [2, 1, 1], [2, 1, 2], [2, 1, 3], [2, 2, 1], [2, 2, 2], [3, 1, 1], [3, 1, 2], [3, 1, 3], [3, …
 
 ## Solution
 
