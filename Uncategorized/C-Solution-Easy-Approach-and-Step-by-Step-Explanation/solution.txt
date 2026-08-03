@@ -1,5 +1,5 @@
 class Solution {
-    public int count(int n, int m) {
+    public int maxSumWithK(int[] arr, int k) {
         // code here
         
     }
