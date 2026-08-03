@@ -4,20 +4,20 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | August 2, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/count-in-array2138/1) |
+| **Solved On** | August 3, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1) |
 
 ## Problem Summary
 
-Given two positive integer n and m. Find the number of arrays of size n that can be formed such that:
-
-Each element is in the range [1, m].
-All adjacent are such that one of them divide the another i.e element Ai divides Ai + 1 or Ai+1 divides Ai.
-
+Given an array arr[] and an integer k, find the maximum sum among all contiguous subarrays having a length greater than or equal to k.
 Examples:
-Input: n = 3, m = 3
-Output : 17
-Explanation: The possible arrays are [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 2, 1], [1, 2, 2], [1, 3, 1], [1, 3, 3], [2, 1, 1], [2, 1, 2], [2, 1, 3], [2, 2, 1], [2, 2, 2], [3, 1, 1], [3, 1, 2], [3, 1, 3], [3, …
+Input: arr[] = [1, -2, 2, -3], k = 3
+Output: 1
+Explanation: The sub-array of length at least 3 that produces greatest sum is [1, -2, 2]
+Input: arr[] = [1, 1, 1, 1, 1, 1], k = 2
+Output: 6Explanation: The sub-array of length at least 2 that produces greatest sum is [1, 1, 1, 1, 1, 1]
+Input: arr[] = [-4, -2, 1, -3], k = 2
+Output: -1Explanation: The sub-…
 
 ## Solution
 
