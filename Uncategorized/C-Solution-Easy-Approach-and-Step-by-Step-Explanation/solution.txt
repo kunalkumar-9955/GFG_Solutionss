@@ -1,5 +1,5 @@
 class Solution {
-    public int maxSumWithK(int[] arr, int k) {
+    public static int countPairs(int arr[], int k) {
         // code here
         
     }
