@@ -4,20 +4,20 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | August 3, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1) |
+| **Solved On** | August 4, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1) |
 
 ## Problem Summary
 
-Given an array arr[] and an integer k, find the maximum sum among all contiguous subarrays having a length greater than or equal to k.
+Given an array arr[] of positive integers and an integer k, find the total number of pairs of elements that have an absolute difference strictly less than k.
+Note:  Pair (i, j) is considered the same as (j, i).
 Examples:
-Input: arr[] = [1, -2, 2, -3], k = 3
-Output: 1
-Explanation: The sub-array of length at least 3 that produces greatest sum is [1, -2, 2]
-Input: arr[] = [1, 1, 1, 1, 1, 1], k = 2
-Output: 6Explanation: The sub-array of length at least 2 that produces greatest sum is [1, 1, 1, 1, 1, 1]
-Input: arr[] = [-4, -2, 1, -3], k = 2
-Output: -1Explanation: The sub-…
+Input : arr[] = [1, 10, 4, 2], k = 3
+Output : 2
+Explanation: We have an array arr[] = [1, 10, 4, 2] and k = 3 We can make only two pairs with a difference of less than 3. (1, 2) and (4, 2). So, the answer is 2.
+
+Input : arr[] = [2, 3, 4], k = 5
+Output : 3Explanation:  For the…
 
 ## Solution
 
