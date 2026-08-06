@@ -1,5 +1,5 @@
 class Solution {
-    public static int countPairs(int arr[], int k) {
+    public int countMinOperations(int arr[]) {
         // code here
         
     }
