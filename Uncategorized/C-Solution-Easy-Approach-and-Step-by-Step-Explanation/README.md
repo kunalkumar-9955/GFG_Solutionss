@@ -4,20 +4,22 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | August 4, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1) |
+| **Solved On** | August 6, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1) |
 
 ## Problem Summary
 
-Given an array arr[] of positive integers and an integer k, find the total number of pairs of elements that have an absolute difference strictly less than k.
-Note:  Pair (i, j) is considered the same as (j, i).
-Examples:
-Input : arr[] = [1, 10, 4, 2], k = 3
-Output : 2
-Explanation: We have an array arr[] = [1, 10, 4, 2] and k = 3 We can make only two pairs with a difference of less than 3. (1, 2) and (4, 2). So, the answer is 2.
+Given an array arr[]. Initially, you have another array containing only 0s.In one operation, you may either:
 
-Input : arr[] = [2, 3, 4], k = 5
-Output : 3Explanation:  For the…
+Choose any one element and increase its value by 1, or
+Double the values of all elements in the array simultaneously.
+
+Find the minimum number of operations required to transform the initial all-zero array into the given array arr[].
+Examples:
+Input: arr[] = [16, 16, 16]
+Output: 7
+Explanation: First, increase each element to make the array [1, 1, 1] (3 steps).
+Then, multiply the whole…
 
 ## Solution
 
