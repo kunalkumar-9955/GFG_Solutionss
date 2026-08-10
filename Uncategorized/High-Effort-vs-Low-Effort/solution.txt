@@ -1,0 +1,6 @@
+class Solution {
+    public int maxTask(int[] h, int[] l) {
+        // code here
+        
+    }
+}
