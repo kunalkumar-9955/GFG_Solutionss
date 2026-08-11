@@ -4,22 +4,17 @@
 |----------|-------|
 | **Difficulty** | Unknown |
 | **Language** | Java (21) |
-| **Solved On** | August 6, 2026 |
-| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/minimum-steps-to-get-desired-array5519/1) |
+| **Solved On** | August 11, 2026 |
+| **Problem Link** | [View on GeeksforGeeks](https://www.geeksforgeeks.org/problems/largest-square-in-a-binary-matrix-with-at-most-k-1s-for-multiple-queries/1) |
 
 ## Problem Summary
 
-Given an array arr[]. Initially, you have another array containing only 0s.In one operation, you may either:
+Given a binary matrix mat[][] of size n*m and an integer k, process a list of queries queries[][]. Each query contains coordinates [i, j] of the center of a square.
 
-Choose any one element and increase its value by 1, or
-Double the values of all elements in the array simultaneously.
+For every query, find the side length of the largest odd-sized square centered at cell (i, j) such that the square contains at most k ones.
+ A square centered at (i, j) expands outward symmetrically in all four directions by the same number of cells, so its side length is always odd.
 
-Find the minimum number of operations required to transform the initial all-zero array into the given array arr[].
-Examples:
-Input: arr[] = [16, 16, 16]
-Output: 7
-Explanation: First, increase each element to make the array [1, 1, 1] (3 steps).
-Then, multiply the whole…
+Note: If no odd-sized square centered at the …
 
 ## Solution
 
