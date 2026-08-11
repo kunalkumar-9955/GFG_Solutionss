@@ -1,5 +1,5 @@
 class Solution {
-    public int countMinOperations(int arr[]) {
+    ArrayList<Integer> largestSquare(int[][] mat, int[][] queries, int k) {
         // code here
         
     }
